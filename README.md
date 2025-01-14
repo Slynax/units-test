@@ -1,34 +1,17 @@
-# Hello World
+# Test E2E
 
-## Installation
+## Test de la messagerie
 
-Use the package manager [npm](https://www.npmjs.com/) to install helloworld.
+### Scenario 1 - Envoie d'un message sur la page avis
 
-Use node v16 use :
-```bash
-nvm install 16
-```
+Cas 1 : Envoyer un message et vérifier l'ajout
 
-```bash
-npm i
-```
+Cas 2 : Envoyer un message et vérifier les informations du message
 
-## Usage
+## Test du login
 
-Start the application dev with :
+### Scenario 1 - Login en admin
 
-```bash
-npm run start
-```
+Cas 3 : Login avec identifiant et mot de passe et véfier la redirection
 
-Created the dist with :
-
-```bash
-npm run dist
-```
-
-Analyse the coding rules with :
-
-```bash
-npm run lint
-```
+Cas 4 : Login avec identifiant et mauvais mot de passe et véfier la redirection

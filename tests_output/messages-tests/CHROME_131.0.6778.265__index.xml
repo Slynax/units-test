@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="messages-tests.index"
+    errors="0" failures="0" hostname="" id="" package="messages-tests" skipped="0"
+    tests="1" time="6.110" timestamp="">
+  
+    <testcase name="should add a message in feeback section" classname="messages-tests.index" time="3.054" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
