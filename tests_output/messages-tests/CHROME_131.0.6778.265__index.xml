@@ -5,9 +5,9 @@
 
   <testsuite name="messages-tests.index"
     errors="0" failures="0" hostname="" id="" package="messages-tests" skipped="0"
-    tests="1" time="6.110" timestamp="">
+    tests="1" time="3.392" timestamp="">
   
-    <testcase name="should add a message in feeback section" classname="messages-tests.index" time="3.054" assertions="4">
+    <testcase name="should add a message in feeback section" classname="messages-tests.index" time="1.695" assertions="4">
 
     
 

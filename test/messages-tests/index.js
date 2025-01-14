@@ -19,7 +19,12 @@ describe('Send messages', function() {
   
       await browser.setValue(expeditorInput, 'test');
       await browser.setValue(messageInput, 'test');
+      await browser.execute(function() {
+        document.querySelector('body > main > form > div.row > div.col-3 > div > button').scrollIntoView();
+      });
+      await browser.pause(200);
       await browser.click(sendButton);
+  
   
       await browser.pause(500);
   

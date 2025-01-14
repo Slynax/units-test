@@ -5,16 +5,16 @@
 
   <testsuite name="login-tests.index"
     errors="0" failures="0" hostname="" id="" package="login-tests" skipped="0"
-    tests="2" time="7.095" timestamp="">
+    tests="2" time="7.034" timestamp="">
   
-    <testcase name="should login to admin page" classname="login-tests.index" time="1.383" assertions="2">
+    <testcase name="should login to admin page" classname="login-tests.index" time="1.381" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="should not login to admin page" classname="login-tests.index" time="2.163" assertions="2">
+    <testcase name="should not login to admin page" classname="login-tests.index" time="2.134" assertions="2">
 
     
 
