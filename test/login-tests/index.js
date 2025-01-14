@@ -1,4 +1,4 @@
-describe('Login', function() {
+describe('Login - tests', function() {
     it('should login to admin page', async function(browser) {
       await browser.navigateTo('http://localhost:9090/login');
   

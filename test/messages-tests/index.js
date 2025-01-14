@@ -1,4 +1,4 @@
-describe('Send messages', function() {
+describe('Messages - tests', function() {
     it('should add a message in feeback section', async function(browser) {
       await browser.navigateTo('http://localhost:9090/feedback');
   
