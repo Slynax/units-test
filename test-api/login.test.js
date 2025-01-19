@@ -4,13 +4,13 @@ import jwt from 'jsonwebtoken';
 const baseUrl = 'http://127.0.0.1:3000';
 
 describe(`${baseUrl}/login`, () => {
-  describe('GET /login/?name=??&&password=??', () => {
+  describe('GET /login/?login=??&&password=??', () => {
     it('Should get a token authentification', async () => {
-      const name = 'cyril';
+      const login = 'cyril';
       const password = '12345';
       const res = await request(baseUrl)
         .get('/login/')
-        .query({ name, password });
+        .query({ login, password });
 
       const { token } = res.body;
       jwt.verify(token, 'SANDRA_SECRET', (err, user) => {
