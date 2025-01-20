@@ -1,34 +1,32 @@
-# Hello World
+# Perf test
 
-## Installation
+## test Feedback Endpoint
 
-Use the package manager [npm](https://www.npmjs.com/) to install helloworld.
+### Requête GET
+Action : Envoi d'une requête pour récupérer tous les feedbacks.
 
-Use node v16 use :
-```bash
-nvm install 16
-```
+Métriques mesurées :
+- Temps de test
+- Temps de réponse moyen
+- Nombre de réponses positives
+- Nombre de réponses négatives
 
-```bash
-npm i
-```
+### Requête POST
+Action : Envoi d'une requête pour créer un nouveau feedback.
 
-## Usage
+Métriques mesurées :
+- Temps de test
+- Temps de réponse moyen
+- Nombre de réponses positives
+- Nombre de réponses négatives
 
-Start the application dev with :
+## test Login
 
-```bash
-npm run start
-```
+### Requête GET
+Action : Envoi d'une requête pour effectuer un login avec de mauvais identifiants.
 
-Created the dist with :
-
-```bash
-npm run dist
-```
-
-Analyse the coding rules with :
-
-```bash
-npm run lint
-```
+Métriques mesurées :
+- Temps de test
+- Temps de réponse moyen
+- Nombre de réponses positives
+- Nombre de réponses négatives
